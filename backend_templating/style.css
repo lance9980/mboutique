@@ -1,0 +1,277 @@
+body {
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #6a6969;
+  width: 1000px;
+  margin: auto;
+}
+h1 {
+  font-size: 20px;
+  font-weight: normal;
+}
+p {
+  margin: 30px 0;
+}
+a:link {
+  text-decoration: none;
+}
+
+/* header styles */
+.nav {
+  height: 72px;
+  background: #fffabe url("assets/images/logo.png") no-repeat 5% 50%;
+  text-align: center;
+}
+.nav ul {
+  padding: 28px 0 0 200px;
+}
+.nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 45px;
+  font-size: 16px;
+  color: #515151;
+}
+.nav ul li:hover {
+  color: #d42551;
+}
+header img {
+    width: 100%;
+  height: 400px;
+}
+
+/* footer styles */
+footer {
+  height: 80px;
+  background-color: #df5277;
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+.footer_a {
+  display: inline-block;
+  width: 31%;
+  margin-top: 15px;
+  background: url("assets/images/mail.png") no-repeat 20% 0;
+}
+.footer_b {
+  display: inline-block;
+  width: 32%;
+  background: url("assets/images/phone.png") no-repeat 30% 0;
+}
+.footer_c {
+  display: inline-block;
+  width: 31%;
+}
+.footer_c img {
+  margin-left: 20px;
+}
+.footer_d {
+  margin-top: 15px;
+  clear: both;
+}
+
+/*** welcome/index page content styles ***/
+.main_content {
+  padding-top: 70px;
+}
+.column1 {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 120px;
+}
+.column2 {
+  display: inline-block;
+  width: 75%;
+  margin-left: 50px;
+  line-height: 1.8;
+}
+.table_flavor {
+  margin-top: 60px;
+  margin-right: 20px;
+  width: 100%;
+  height: 140px;
+  border-collapse: collapse;
+}
+.table_flavor tr {
+  height: 33px;
+  border-collapse: collapse;
+}
+.table_flavor tr td {
+  width: 126px;
+  background-color: #fffabe;
+  border-left: 15px solid white;
+  border-right: 15px solid white;
+  padding-left: 10px;
+}
+.tr_flavor td {
+  font-size: 12px;
+}
+.tr_flavor td img {
+  float: right;
+  margin-right: 10px;
+}
+
+/*** our_macarons page content styles ***/
+.om_content {
+  width: 93%;
+  margin: 70px auto 90px;
+}
+.om2 {
+  width: 100%;
+  height: 300px;
+  background: url("assets/images/our-macarons-background.png") no-repeat 0 75%;
+}
+
+/*** gift_parties page content styles ***/
+.gp2 {
+    height: 400px;
+    background: url("assets/images/gifts-parties-background.png") no-repeat right bottom;
+}
+.gp2 p:nth-child(2) {
+    margin-bottom: 0;
+}
+.gp2 h1:nth-child(4) {
+    margin-top: 50px;
+}
+.gp2 p:nth-child(5) {
+    width: 55%;
+    margin-bottom: 0;
+}
+
+/*** contact page content styles ***/
+.contact_main {
+    margin: 100px 0;
+}
+.c1 {
+    width: 300px;
+    display: inline-block;
+    line-height: 1.2;
+    padding: 15px;
+}
+.c1 a {
+    color: #df5277;
+}
+.contact_main form {
+    width: 315px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 30px;
+}
+.contact_main form input {
+    width: 310px;
+    height: 35px;
+    background-color: #f5f5f5;
+    border: none;
+    margin: 5px;
+}
+.contact_main form textarea {
+    width: 310px;
+    height: 70px;
+    background-color: #f5f5f5;
+    border: none;
+    margin: 5px;
+}
+.contact_main form input[type="submit"] {
+    width: 155px;
+    float: right;
+}
+
+
+/***** Mobile friendly @ smaller than 1000px *****/
+@media only screen and (max-width: 1000px) {
+    body {
+        width: 100%;
+    }
+
+    /* header styles */
+    .nav {
+        background-position: center top;
+    }
+    .nav ul {
+        padding: 0;
+    }
+    .nav ul li {
+        margin-left: 3%;
+        font-size: 0.8em;
+        position: relative;
+        top: 40px;
+    }
+    header img {
+        height:30%;
+    }
+
+    /* footer styles */
+    footer {
+        height: 90px;
+    }
+    .footer_a {
+        width: 165px;
+        margin-top: 10px;
+        text-align: right;
+        background-position: 10% 0;
+    }
+    .footer_b {
+        width: 120px;
+        text-align: right;
+        background-position: 10% 0;
+        margin-left: 2%;
+    }
+    .footer_c {
+        width: 60%;
+        margin-top: 8px;
+    }
+    .footer_d {
+        margin-top: 8px;
+    }
+
+    /*** welcome/index page content ***/
+    .main_content {
+        padding-top: 15px;
+    }
+    .column1 {
+        display: none;
+    }
+    .table_flavor {
+        margin: 15px 0 0 0;
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .table_flavor tr td {
+        border: 1px;
+    }
+    .tr_flavor td {
+        font-size: 0.7em;
+    }
+
+    /*** our_macarons page content ***/
+    .om_content {
+        margin: 40px auto;
+    }
+    .om2 {
+        background: none;
+    }
+
+    /*** gifts_parties page content ***/
+    .gp_content {
+        width: 90%;
+        margin: 30px auto;
+    }
+    .gp2 {
+        background: none;
+    }
+
+    /*** contact page content ***/
+    .contact_main {
+        margin: 20px auto;
+        padding-left: 8%;
+    }
+    .contact_main form {
+        margin: 0;
+    }
+    .contact_main img {
+        display: none;
+    }
+}

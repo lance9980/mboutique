@@ -2,8 +2,8 @@
 
 <<<<<<< HEAD
 ## Assignment
-> We will be building out the full MBoutique website
 
+<<<<<<< HEAD
 > The MBoutique webstite contains 4 seperate pages
   - Welcome
   - Our Macarons
@@ -86,3 +86,10 @@ We will be building out the second page of the MBoutique website
 2. `git commit -m "MBoutique Our Macarons page"` - Commit the files with a message of "MBoutique Our Macarons page"
 3. `git push origin master` - Push these files to a remote location (origin master)
 >>>>>>> dafc2b5ca4ac9c78c495319549902651987057c0
+=======
+- Make modifications to mboutique to include a different holiday themed CSS based on the holiday.  
+- Include the following holidays: 
+  - july 4th
+  - december 25th
+  - january 1st
+>>>>>>> 303b47c68bd4cb9ab66b63e237580e0c86ca5b7e
