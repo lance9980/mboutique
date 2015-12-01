@@ -11,12 +11,11 @@
   <header>
     <div class="nav">
       <?php
-      include('header.php');
+      include 'header.php';
       ?>
     </div>
-      <img src="assets/images/welcome-image.png">
-  </header>
 
+    <!-- following php selects the content page based on the linked clicked -->
   <?php
   include 'get_page.php';
   ?>

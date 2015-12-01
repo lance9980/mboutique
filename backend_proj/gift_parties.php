@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <title>Gifts & Parties - by Lance Seo</title>
-</head>
-<body>
 
-    <header>
-        <div class="nav">
-            <?php
-            include 'header.php';
-            ?>
-        </div>
         <img src="assets/images/gifts-parties-image.png">
     </header>
 
@@ -45,12 +30,3 @@
         </div>
 
     </div>
-
-    <footer>
-        <?
-        include 'footer.php'
-        ?>
-    </footer>
-
-</body>
-</html>
