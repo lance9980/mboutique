@@ -7,24 +7,40 @@
   <title>Welcome to MBoutique - by Lance Seo</title>
 </head>
 <body>
+<?php
+  $mArray= [
+      'welcome'=>['text'=>'Welcome','url'=>'index.php','default'=>true],
+      'macarons'=>['text'=>'Our Macarons','url'=>'our_macarons.php'],
+      'gifts'=>['text'=>'Gifts & Parties','url'=>'gift_parties.php'],
+      'contact'=>['text'=>'Contact','url'=>'contact.php']
+  ];
+?>
 
-  <header>
-    <div class="nav">
-      <?php
-      include 'header.php';
-      ?>
-    </div>
+<?
+  include 'header.php';
+?>
 
-    <!-- following php selects the content page based on the linked clicked -->
-  <?php
-  include 'get_page.php';
-  ?>
+<?
+  if (empty($_GET['page'])) {
+   $page_to_load = 'index.php';
+  }
+  else {
+   if (isset($mArray[$_GET['page']])) {
+     $page_to_load = $mArray[$_GET['page']]['url'];
+   }
+   else {
+     $page_to_load = '404.php';
+   }
+  }
 
-  <footer>
-    <?
-    include 'footer.php'
-    ?>
-  </footer>
+  include($page_to_load);
+
+//  print_r($_POST);
+?>
+
+<?
+  include 'footer.php'
+?>
 
 </body>
 </html>

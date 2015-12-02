@@ -1,6 +1,4 @@
-
-      <img src="assets/images/welcome-image.png">
-  </header>
+    <img src="assets/images/welcome-image.png">
 
   <div class="main_content">
     <div class="column1">

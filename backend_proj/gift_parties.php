@@ -1,6 +1,6 @@
 
         <img src="assets/images/gifts-parties-image.png">
-    </header>
+
 
     <div class="gp_content">
         <div class="gp1">

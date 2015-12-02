@@ -1,21 +1,17 @@
-<?php
-$mArray= [
-    'welcome'=>['text'=>'Welcome','url'=>'index.php','default'=>true],
-    'macarons'=>['text'=>'Our Macarons','url'=>'our_macarons.php'],
-    'gifts'=>['text'=>'Gifts & Parties','url'=>'gift_parties.php'],
-    'contact'=>['text'=>'Contact','url'=>'contact.php']
-];
-?>
-<ul>
+<header>
+    <div class="nav">
+        <ul>
     <?
     foreach ($mArray as $keys=>$values) {
 //        if ($values['default'] && basename($_SERVER['PHP_SELF']) === 'index.php') {
 //            print("<li>".$values['text']."</a>");
 //        }
 //        else {
-        print("<li><a href=index2.php?page=".$keys.">".$values['text']."</a>");
+        print("<li><a href='index2.php?page=".$keys."'>".$values['text']."</a>");
 //       }
     }
 
     ?>
-</ul>
+        </ul>
+    </div>
+</header>

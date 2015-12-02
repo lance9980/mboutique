@@ -1,5 +1,5 @@
     <img src="assets/images/our-macarons-image.png">
-  </header>
+
 
 <div class="om_content">
     <div class="om1">
