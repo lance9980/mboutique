@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style.css" rel="stylesheet">
-  <title>Welcome to MBoutique - by Lance Seo</title>
-</head>
-<body>
-
-  <header>
-    <div class="nav">
-      <ul>
-        <li>WELCOME</li>
-        <li><a href="our_macarons.html">OUR MACARONS</a></li>
-        <li><a href="gift_parties.html">GIFTS & PARTIES</a></li>
-        <li><a href="contact.html">CONTACT</a></li>
-      </ul>
-    </div>
-      <img src="assets/images/welcome-image.png">
-  </header>
+    <img src="assets/images/welcome-image.png">
 
   <div class="main_content">
     <div class="column1">
@@ -92,23 +72,3 @@
       </table>
     </div>
   </div>
-
-  <footer>
-    <div class="footer_a">
-        order@mboutique.com
-    </div>
-    <div class="footer_b">
-      949.800-3111
-    </div>
-    <div class="footer_c">
-      Follow us
-      <img src="assets/images/facebook.png">
-      <img src="assets/images/twitter.png">
-    </div>
-    <div class="footer_d">
-      Copyright &copy; 2015 MBoutique. All rights reserved.
-    </div>
-  </footer>
-
-</body>
-</html>
